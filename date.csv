@@ -1,48 +1,48 @@
-ammeter, amperomierz
-ampere, amper
-brightness, jasność
-basic system, system bazowy
-capacitance, pojemność
-cycle, cykl
-display, wyświetlacz
-data correction, poprawianie danych
-electron charge, ładunek elektronu
-error expected, błąd przewidywany
-fully automatic, automatyczny
-field gain, wzmocnienie pola
-gate array, matryca bramek
-Gaussian noise, szum gaussowski
-holding coil, cewka przytrzymująca
-hybrid computer, komputer hybrydowy
-initial adress message, wstępna jednostka adresowa
-interface, interfejs
-joule, dżul
-jump to subroutine, skok do podprogramu
-keyword in context, słowo kluczowe w kontekście
-kilovoltampere, kilowoltoamper
-line circuit, obwód liniowy
-latent heat, ciepło utajone
-manually operated, ręcznie uruchamiany
-mobile, przenośny
-no bias, bez polaryzacji
-noise meter, miernik szumów
-output buffer, bufor wyjściowy
-operand, argument operacji
-positive, dodatni
-power, moc
-quality of service, jakość obsługi
-quick Fortran, szybki Fortran
-reverse current, prąd wsteczny
-relational data base, relacyjna baza danych
-storage, pamięć
-scanning, przeszukiwanie
-time base, podstawa czasu
-toggle flip-flop, przerzutnik dwustabilny
-universal compiler, kompilator uniwersalny
-ultra-short wave, fala ultrakrótka
-virtual call, połączenie wirtualne
-voice unit, głośność
-write enable, zezwolenie na zapis
-wave, fala
-execute, wykonaj
-crystal, kryształ
+ammeter,amperomierz
+ampere,amper
+brightness,jasność
+basic system,system bazowy
+capacitance,pojemność
+cycle,cykl
+display,wyświetlacz
+data correction,poprawianie danych
+electron charge,ładunek elektronu
+error expected,błąd przewidywany
+fully automatic,automatyczny
+field gain,wzmocnienie pola
+gate array,matryca bramek
+Gaussian noise,szum gaussowski
+holding coil,cewka przytrzymująca
+hybrid computer,komputer hybrydowy
+initial adress message,wstępna jednostka adresowa
+interface,interfejs
+joule,dżul
+jump to subroutine,skok do podprogramu
+keyword in context,słowo kluczowe w kontekście
+kilovoltampere,kilowoltoamper
+line circuit,obwód liniowy
+latent heat,ciepło utajone
+manually operated,ręcznie uruchamiany
+mobile,przenośny
+no bias,bez polaryzacji
+noise meter,miernik szumów
+output buffer,bufor wyjściowy
+operand,argument operacji
+positive,dodatni
+power,moc
+quality of service,jakość obsługi
+quick Fortran,szybki Fortran
+reverse current,prąd wsteczny
+relational data base,relacyjna baza danych
+storage,pamięć
+scanning,przeszukiwanie
+time base,podstawa czasu
+toggle flip-flop,przerzutnik dwustabilny
+universal compiler,kompilator uniwersalny
+ultra-short wave,fala ultrakrótka
+virtual call,połączenie wirtualne
+voice unit,głośność
+write enable,zezwolenie na zapis
+wave,fala
+execute,wykonaj
+crystal,kryształ

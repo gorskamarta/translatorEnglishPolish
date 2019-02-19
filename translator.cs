@@ -4,7 +4,8 @@ using System.IO;
 
 public class Translator
 {
-    Dictionary<string, string> dictionary = new Dictionary<string, string>();
+    Dictionary<string, string> dictionaryEngPl = new Dictionary<string, string>();
+    Dictionary<string, string> dictionaryPlEng = new Dictionary<string, string>();
 
     public Translator()
     {
@@ -14,23 +15,31 @@ public class Translator
             var line = reader.ReadLine();
             var values = line.Split(',');
 
-            dictionary.Add(values[0], values[1]);
+            dictionaryEngPl.Add(values[0], values[1]);
+            dictionaryPlEng.Add(values[1], values[0]);
         }
-        //dictionary.Add("ammeter", "amperomierz");
-        //dictionary.Add("abbreviation", "skrót");
+
     }
 
-	public string translate(string text)
+	public string translate(string text, int tryb)
 	{
         string value = "";
-        if (dictionary.TryGetValue(text, out value))
+
+        if (tryb == 0)
         {
-            return value;
-        }
-        else
-        {
-            return "404";
+            if (dictionaryPlEng.TryGetValue(text, out value))
+            {
+                return value;
+            }
         }
 
+        if (tryb == 1) { 
+            if (dictionaryEngPl.TryGetValue(text, out value))
+            {
+                return value;
+            }
+        }
+
+        return "404";
     }
 }
